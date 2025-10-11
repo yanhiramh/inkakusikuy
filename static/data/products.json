@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+      "name": "Inka Mix",
+    "description": "Hojuelas de arracacha, pituca, y arvejas fritas con sal",
+    "price": 4.00,
+    "image": "inkamix.png",
+    "in_stock": true
+  },
+  {
+    "id": 2,
+    "name": "Arracacha",
+    "description": "Hojuelas de arracacha con sal",
+    "price": 3.00,
+    "image": "arracacha.png",
+    "in_stock": true
+  },
+  {
+    "id": 3,
+    "name": "Arveja",
+    "description": "Arvejas fritas crujientes con sal",
+    "price": 3.00,
+    "image": "arveja.png",
+    "in_stock": true
+  }
+]

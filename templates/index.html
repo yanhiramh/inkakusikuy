@@ -1,0 +1,75 @@
+{% extends 'base.html' %}
+
+{% block title %}Inka Kusikuy - Home{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero-section text-center">
+    <div class="container">
+        <div class="hero-content mx-auto">
+            <h1 class="display-4 fw-bold mb-4 animate-on-scroll">Bienvenido a Inka Kusikuy</h1>
+            <p class="lead mb-4 animate-on-scroll">Somos una empresa de snacks ecoamigables comprometida con tu salud y la del planeta</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <a href="/about" class="btn btn-primary btn-lg px-4 gap-3 animate-on-scroll">Conócenos</a>
+                <a href="/shop" class="btn btn-outline-primary btn-lg px-4 animate-on-scroll">Nuestros Productos</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="page-section bg-light">
+    <div class="container">
+        <div class="row g-4 mt-3">
+            <div class="col-md-4">
+                <div class="card h-100 animate-on-scroll">
+                    <div class="card-body text-center">
+                        <div class="feature-icon">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                        <h5 class="card-title">Producto peruano de alta calidad</h5>
+                        <p class="card-text">Brindamos productos 100% naturales, saludables, y cuidadosamente seleccionados para tí</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 animate-on-scroll">
+                    <div class="card-body text-center">
+                        <div class="feature-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h5 class="card-title">Una nueva propuesta al Perú</h5>
+                        <p class="card-text">Traemos una opción de snacks saludables, sostenibles y amigables con el medio ambiente</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 animate-on-scroll">
+                    <div class="card-body text-center">
+                        <div class="feature-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h5 class="card-title">Llámanos o escríbenos</h5>
+                        <p class="card-text">Contacta con nosotros</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action Section -->
+<section class="page-section bg-primary text-white text-center">
+    <div class="container py-5">
+        <h2 class="section-heading">La historia detrás de Inka Kusikuy</h2>
+        <p class="lead mb-4">Descubre cómo inició Inka Kusikuy y qué propuesta ofrecemos.</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="/about" class="btn btn-light btn-lg px-4">Conoce</a>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block extra_js %}
+<!-- No additional JavaScript needed -->
+{% endblock %}
